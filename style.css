@@ -1,0 +1,135 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling  */
+body{
+    font-family:'Roboto', sans-serif;
+    /* background-color: #95D1CC; */
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./background.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;    /* overflow: hidden; */
+}
+
+.header{
+    /* background: #ede6e68f; */
+    /* margin: 120px auto; */
+    padding: 10px;
+    padding-bottom: 30px;
+    width: 35%;
+    height: 20px;
+    border-radius: 13px;
+    color: #363535;
+    /* box-shadow:  5px 8px 12px #352828; */
+    /* border: 10px solid black; */
+}
+
+.searchInput{
+    width: 100%;
+    height: 50px;
+    padding: 18px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    border-radius: 20px;
+    background-color: silver;   
+
+}
+
+/* container body styling */
+.container{
+    /* border: 34px solid darkblue; */
+    background:linear-gradient( #be6d45,#3c7ba9);
+    /* margin: 0 auto; */
+    padding: 10px;
+    padding-bottom: 30px;
+    width: 40%;
+    height: 435px;
+    border-radius: 13px;
+    color: #0b0c0a;
+    box-shadow:  5px 8px 12px #352828;
+    
+}
+
+/* Date h2 styling */
+.date-day{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#date{
+    margin: 15px;
+    font-size: 22px;
+}
+
+#day{
+    margin:15px;
+}
+
+/* img styling */
+img{
+    cursor: pointer;
+}
+/* Content  top styling */
+.content{
+    padding: 15px;
+}
+.content-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-top img{
+    width: 250px;
+    height: 200px;
+}
+/* temperature styling */
+
+.content-top .temperature{
+    font-size: 80px;
+}
+
+/* Content bottom styling */
+
+.content-bottom{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Weather conditions Styling */
+
+.conditions{
+    padding: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* City and weather status styling */
+.city-status{
+    margin-top: 17px;
+}
+.city-status p{
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 7px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}

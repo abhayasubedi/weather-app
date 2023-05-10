@@ -1,0 +1,54 @@
+<!-- Student Name- Abhaya Subedi
+Student ID- 2330521 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App | Welcome</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <input type="text" name="searchBar" id="search" class="searchInput" placeholder="Search the city">
+    </header>
+    <main class="container">
+        <!-- date -->
+        <div class="date-day">
+            <h2 id="date">July 23, 2022</h2>
+            <h2 id="day">Sunday</h2>
+
+        </div>
+        <!-- container content  -->
+        <div class="content">
+
+            <div class="content-top">
+                <span class="temperature" id="temp"></span>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weathericon" id="des-img">
+            </div>
+            
+            <!-- content top and bottom seperation -->
+            <div class="content-bottom">
+
+                <div class="conditions">
+                    <p id="pressure"></p>
+                    <p id="humidity"><p/>
+                    <p id="wind-speed"></p>
+                    <p id="wind-direction"></p>
+                </div>
+
+                <!-- conditions, city and weather status seperation -->
+                <div class="city-status">
+                    <p id="statusbar"></p>
+                    <p id="city"></p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+</body>
+</html>
